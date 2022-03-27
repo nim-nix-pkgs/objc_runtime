@@ -11,6 +11,7 @@
   inputs.src-objc_runtime-v0_1_3.ref   = "refs/tags/v0.1.3";
   inputs.src-objc_runtime-v0_1_3.owner = "bung87";
   inputs.src-objc_runtime-v0_1_3.repo  = "objc_runtime";
+  inputs.src-objc_runtime-v0_1_3.dir   = "";
   inputs.src-objc_runtime-v0_1_3.type  = "github";
   
   inputs."regex".owner = "nim-nix-pkgs";

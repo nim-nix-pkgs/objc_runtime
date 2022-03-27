@@ -11,6 +11,7 @@
   inputs.src-objc_runtime-master.ref   = "refs/heads/master";
   inputs.src-objc_runtime-master.owner = "bung87";
   inputs.src-objc_runtime-master.repo  = "objc_runtime";
+  inputs.src-objc_runtime-master.dir   = "";
   inputs.src-objc_runtime-master.type  = "github";
   
   inputs."regex".owner = "nim-nix-pkgs";
