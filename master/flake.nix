@@ -11,8 +11,15 @@
   inputs.src-objc_runtime-master.ref   = "refs/heads/master";
   inputs.src-objc_runtime-master.owner = "bung87";
   inputs.src-objc_runtime-master.repo  = "objc_runtime";
-  inputs.src-objc_runtime-master.dir   = "";
   inputs.src-objc_runtime-master.type  = "github";
+  
+  inputs."darwin".owner = "nim-nix-pkgs";
+  inputs."darwin".ref   = "master";
+  inputs."darwin".repo  = "darwin";
+  inputs."darwin".dir   = "master";
+  inputs."darwin".type  = "github";
+  inputs."darwin".inputs.nixpkgs.follows = "nixpkgs";
+  inputs."darwin".inputs.flakeNimbleLib.follows = "flakeNimbleLib";
   
   inputs."regex".owner = "nim-nix-pkgs";
   inputs."regex".ref   = "master";
